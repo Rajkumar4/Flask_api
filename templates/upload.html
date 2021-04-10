@@ -1,0 +1,16 @@
+<!Doctype html>
+
+<head>
+    <title>addimage</title>
+    <link rel="stylesheet" ,type="stylesheet/css" href="{{url_for('static',filename='css/style.css')}}" </head>
+
+
+    <body>
+        <div id=" cont " class="firm">
+            <form method="POST" action="/upload" enctype="multipart/form-data">
+                <label class="nlb">image</label></br>
+                <input type="file" name="file">
+                <input type="submit">
+            </form>
+        </div>
+    </body>
